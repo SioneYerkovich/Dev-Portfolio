@@ -18,33 +18,33 @@
         />
         <!--Bootstrap stylesheets included below-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <link rel="stylesheet"  href="https://bootswatch.com/5/cyborg/bootstrap.min.css"
+        <link rel="stylesheet" href="https://bootswatch.com/5/cyborg/bootstrap.min.css"
         />
     </head>
 
     <body class="bg-light">
         <header>
             <!-- navbar here (COMPLETED) -->
-            <nav class="navbar fixed-top navbar-expand-lg border-bottom border-secondary my-2" data-bs-theme="dark" aria-label="navigation bar">
+            <nav class="navbar bg-body-light navbar-expand-md border-bottom border-secondary my-2" data-bs-theme="dark" aria-label="navigation bar">
                 <div class="container-fluid mb-3">
                     <a class="navbar-brand ms-5" href="#"><img src="../Images/yerkovich logo.PNG" class="img-fluid" width="170" alt="Yerkovich Logo"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse ms-5 mt-2" id="navbarColor01">
+                    <div class="collapse navbar-collapse bg-light ms-5 mt-2" id="navbarColor01">
                         <ul class="navbar-nav">
-                            <li class="nav-item me-3">
-                                <a class="nav-link active bold-text" href="index.html" style="color: white;">About Me
+                            <li class="nav-item me-3 mb-1">
+                                <a class="nav-link bold-text" href="index.html">About Me
                                 </a>
                             </li>
-                            <li class="nav-item me-3">
-                                <a class="nav-link bold-text" href="#" style="color: white;">Experience</a>
+                            <li class="nav-item me-3 mb-1">
+                                <a class="nav-link bold-text" href="#">Experience</a>
                             </li>
-                            <li class="nav-item me-3">
-                                <a class="nav-link bold-text" href="#" style="color: white;">Projects</a>
+                            <li class="nav-item me-3 mb-1">
+                                <a class="nav-link bold-text" href="#">Projects</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link bold-text" href="#" style="color: white;">Contact Me</a>
+                                <a class="nav-link bold-text" href="#">Contact Me</a>
                             </li>
 
                         </ul>
@@ -55,28 +55,85 @@
 
         <main>
             <!-- Hero section with profile image. (Colours to be completed and spacing )-->
+        <section id="Profile">
             <div class="container">
 
-                <div class="col-xs-12" style="height:200px;">
+                <div class="col-xs-12" style="height:100px;">
                   </div>
 
                 <div class="card border-0 bg-light">
                   <div class="ms-lg-5 row g-0">
-                    <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <!-- Profile card -->
+                    <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-5 col-xl-5">
                     <img src="../Images/Portfolio test image.jpg" alt="Profile Picture" class="card-img-top" style="border-radius: 1000px">
                     </div>
-                <div class="pt-xxl-5 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-8 col-xl-8 text-center">
+                <div class="pt-xxl-5 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-7 col-xl-7 text-center">
                   <div class="card-body pt-4 mt-5">
                     <h2 class="card-title mb-3" style="color: white">Sione Yerkovich</h2>
                     <h5 class="card-title mb-5">Student Developer</h5>
-                    <button type="button" class="btn btn-info me-3">Download CV</button>
-                    <button type="button" class="btn btn- btn-outline-info text-white">Contact Me</button>
-                  </div>
-                </div>
+                    <button type="button" class="btn btn-info btn-lg me-3">Download CV</button>
+                    <button type="button" class="btn btn- btn-outline-info btn-lg text-white">Contact Me</button>
+                    <!-- ATTENTION. MUST ADD HREF TO LINKS BELOW -->
+                      <div>
+                        <a href="#" target="_blank"><btn type="button" class="text-white mt-3 ms-4 me-4" style="font-size: 2rem" alt="LinkedIn link icon">
+                          <i class="bi bi-linkedin"><span class="visually-hidden">Facebook Icon</span></i>
+                        </a>
+                        <a href="#" target="_blank"><btn type="button" class="text-white" style="font-size: 2rem" alt="Github link icon">
+                          <i class="bi bi-github"><span class="visually-hidden">Instagram Icon</span></i>
+                        </a>
+                      </div>
                   </div>
                 </div>
 
-          </div>
+                  </div>
+                </div>
+
+          </div>        
+        </section>
+
+        <div class="col-xs-12" style="height:200px;">
+        </div>
+
+        <!-- About me section -->
+        <section id="about">
+            <div class="container text-center mb-5 pb-5">
+                <p class="mb-1 lead">Get to know</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="container">
+                <div class="row gy-5">
+            <!-- Experience Card -->
+                <div class="col-md-6 col-sm-12 text-center">
+                    <div class="card bg-black" style="border-radius: 15px">
+                        <h3 class="mt-4 text-info"><i class="bi bi-award"></i></h3>
+                        <h5 class="mb-4">Experience</h5>
+                        <p class="mb-1" style="color: rgb(255, 255, 255)">2 Years</p>
+                        <p class="" style="color: rgb(255, 255, 255)">Frontend & Backend Development</p>
+                    </div>
+                </div>
+            <!-- Education Card -->
+                <div class="col-md-6 col-sm-12 text-center">
+                    <div class="card bg-black" style="border-radius: 15px">
+                        <h3 class="mt-4 text-info"><i class="bi bi-book"></i></h3>
+                        <h5 class="mb-4">Education</h5>
+                        <p class="mb-1" style="color: rgb(255, 255, 255)">Diploma of Information Sciences</p>
+                        <p style="color: rgb(255, 255, 255)">Diploma of Software Development (current)</p>
+                    </div>
+                </div>
+            <!-- Descriptive text -->
+                <div class="text-center col-12 mt-5 p-5">
+                    <p class="mt-5 fst-italic text-white">Based in South Auckland, I'm a developer passionate about building streamlined applications with user friendly design and innate functionality. 
+                        I have a knack for design, UI/UX experience and logical problem solving. My point of difference is my interpersonal & leadership skills, and my ability to generate results under pressure. </p>
+                </div>
+            </div>
+        </div>
+
+        <img src="./Images/down arrows modern purple.PNG" width="50" alt="Arrow icon" class="icon arrow ms-5 mt-5 pt-5" onclick="location.href='./#experience'">
+        </section>
+
+        <div class="col-xs-12" style="height:200px;">
+        </div>
         </main>
         <footer>
             <!-- place footer here -->
